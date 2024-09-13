@@ -1,0 +1,264 @@
+/*   
+  body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+  }
+  .portfolio-content{
+    width: 300px;
+    height: 300px;
+    ;
+  }
+  
+  .logo-container {
+    position: fixed;
+    top: 20px;
+    left: 20px;
+    background-color: #333;
+    padding: 10px 20px;
+    border-radius: 5px;
+    z-index: 100;
+  }
+  
+  .logo-text {
+    font-size: 24px;
+    color: #fff;
+    font-weight: bold;
+    letter-spacing: 1.5px;
+  }
+  
+  .portfolio-content {
+    margin-left: 100px;
+    padding: 50px;
+  }
+  
+  .logo-image {
+    display: block;
+    width: 100px;
+    margin-top: 20px;
+  }
+  
+  
+  * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+}
+
+body {
+    background-color: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+header {
+    text-align: center;
+    padding: 50px 0;
+    background-color: #333;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 0.5em;
+}
+
+header p {
+    font-size: 1.2em;
+}
+
+#about {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+#about .profile-img {
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    margin-top: 20px;
+} */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Arial', sans-serif;
+    background-color: #f4f4f9;
+    color: #333;
+    line-height: 1.6;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    min-height: 100vh;
+}
+
+header {
+    background-color: #333;
+    color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+}
+
+header h1 {
+    font-size: 48px;
+    margin-bottom: 10px;
+    letter-spacing: 2px;
+}
+
+header h2 {
+    font-size: 24px;
+    margin-bottom: 20px;
+    font-weight: 300;
+}
+
+header p {
+    font-size: 18px;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.about {
+    background-color: #fff;
+    text-align: center;
+    padding: 40px 20px;
+    box-shadow: 0px 2px 8px rgba(0, 0, 0, 0.1);
+    margin: 20px auto;
+    border-radius: 10px;
+    max-width: 800px;
+}
+
+.about h3 {
+    font-size: 32px;
+    margin-bottom: 20px;
+    color: #222;
+}
+
+.about p {
+    font-size: 18px;
+    margin-bottom: 30px;
+    color: #666;
+}
+
+.profile-img {
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+    object-fit: cover;
+    border: 4px solid #333;
+}
+
+#skills {
+    padding: 50px 20px;
+    background-color: #eaeaea;
+    text-align: center;
+}
+
+.skill-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.skill {
+    background-color: #fff;
+    padding: 20px;
+    margin: 10px;
+    width: 200px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: background-color 0.3s ease;
+}
+
+#projects {
+    padding: 50px 20px;
+    background-color: #fff;
+    text-align: center;
+}
+
+.project-list {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.project {
+    background-color: #eaeaea;
+    padding: 20px;
+    margin: 10px;
+    width: 300px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.project h3 {
+    font-size: 1.5em;
+}
+
+.project p {
+    margin: 10px 0;
+}
+
+.project a {
+    display: inline-block;
+    margin: 5px;
+    padding: 10px 15px;
+    background-color: #0073b1;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+}
+
+.project a:hover {
+    background-color: #005582;
+}
+
+#social {
+    text-align: center;
+    padding: 50px 20px;
+}
+
+.social-links a {
+    margin: 10px;
+    color: white;
+    background-color: #0073b1;
+    padding: 10px 15px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.social-links a:hover {
+    background-color: #005582;
+}
+
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px 0;
+    transition: background-color 0.3s ease;
+}
+
+/* Dark Mode */
+.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+.dark-mode header {
+    background-color: #1e1e1e;
+}
+
+.dark-mode footer {
+    background-color: #1e1e1e;
+}
+
+.dark-mode .skill, .dark-mode .project {
+    background-color: #1e1e1e;
+    color: white;
+}
